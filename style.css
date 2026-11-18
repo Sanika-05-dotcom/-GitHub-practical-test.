@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #202b46;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #74b9ff;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #dce8ff;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #202b46;
+}
+
+.hero h2 {
+    margin: 10px;
+    color: #435b91;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #202b46;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #435b91;
+}
+
+section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color: #202b46;
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 750px;
+    margin: auto;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-list span {
+    background-color: #202b46;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 650px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    color: #435b91;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #202b46;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Dark mode */
+.dark-mode {
+    background-color: #151b2b;
+    color: white;
+}
+
+.dark-mode section h2 {
+    color: #9bbcff;
+}
+
+.dark-mode .hero {
+    background-color: #27334c;
+}
+
+.dark-mode .hero h1,
+.dark-mode .hero h2 {
+    color: white;
+}
+
+.dark-mode .project-card {
+    background-color: #27334c;
+    color: white;
+}
+
+.dark-mode .project-card h3 {
+    color: #9bbcff;
+}
