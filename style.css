@@ -139,3 +139,10 @@ footer {
 .dark-mode .project-card h3 {
     color: #9bbcff;
 }
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
